@@ -1,1 +1,0 @@
-[Cisco](IPv6-Cisco)
