@@ -3,7 +3,7 @@
 ifconfig eth0 | grep "inet6 addr:"  
 ```  
   
-#####Add an IPv6 Address:  
+###### Add an IPv6 Address:  
 ```bash  
 ip -6 addr add 2001:db8::1/64 dev eth0  
 ifconfig eth0 inet6 add 2001:db8::1/64
