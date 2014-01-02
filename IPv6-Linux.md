@@ -1,5 +1,7 @@
 Display existing IPv6 Addresses:  
-`ifconfig eth0 | grep "inet6 addr:"`  
+```  
+ifconfig eth0 | grep "inet6 addr:"  
+```  
   
 Add an IPv6 Address:  
 ```bash  
