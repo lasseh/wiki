@@ -1,11 +1,9 @@
-
-
-Display existing IPv6 Addresses:
-        `ifconfig eth0 | grep "inet6 addr:"`
-
-Add an IPv6 Address:
-        `ip -6 addr add 2001:db8::1/64 dev eth0
-        ifconfig eth0 inet6 add 2001:db8::1/64`
+Display existing IPv6 Addresses:  
+`ifconfig eth0 | grep "inet6 addr:"`  
+  
+Add an IPv6 Address:  
+        `ip -6 addr add 2001:db8::1/64 dev eth0  
+        ifconfig eth0 inet6 add 2001:db8::1/64`  
 
 Remove an IPv6 address:
         ip -6 addr del 2001:db8::1/64 dev eth0
@@ -52,4 +50,3 @@ Create IPv6 Tunnel:
         ip link set he-ipv6 up
         ip addr add 2001:470:1f06:56f::2/64 dev he-ipv6
         ip route add ::/0 dev he-ipv6
-
