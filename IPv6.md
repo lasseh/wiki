@@ -1,1 +1,1 @@
-[Cisco](wiki/IPv6/Cisco)
+[Cisco](wiki/IPv6-Cisco)
