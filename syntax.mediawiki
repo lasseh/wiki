@@ -1,0 +1,9 @@
+<syntaxhighlight lang="php">
+<?php
+    $v = "string";    // sample initialization
+?>
+html text
+<?
+    echo $v;         // end of php code
+?>
+</syntaxhighlight>
