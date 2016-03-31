@@ -1,4 +1,4 @@
-== Secure BGP Template ==
+### Secure BGP Template
 
 <pre>
 ! Our ASN is 64496
