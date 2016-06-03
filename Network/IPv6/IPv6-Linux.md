@@ -23,7 +23,7 @@
 
 #### Add an IPv6 route through a gateway 
 ```
-  ip -6 route add 2000::/3 via 2001:db8::1
+  ip -6 route add default via FE80::1 dev eth0
   route -A inet6 add 2000::/3 gw 2001:db8::1
 ```
 
