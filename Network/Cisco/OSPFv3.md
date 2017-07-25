@@ -1,5 +1,5 @@
 
-```
+```perl
 ipv6 unicast-routing
 
 ipv6 router ospf 1
